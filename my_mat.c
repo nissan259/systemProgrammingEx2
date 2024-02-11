@@ -52,18 +52,18 @@ void check (int dist[Matrix_Size][Matrix_Size],char check_char) {
         {
              if(work_matrix[i][j]==infint||work_matrix[i][j]==0)
  {
-        printf("False");
+        printf("False\n");
  }
         else
         {
-          printf("True");
+          printf("True\n");
         }
         }
             if (check_char=='C')
         {
              if(work_matrix[i][j]==infint||work_matrix[i][j]==0)
  {
-        printf("-1");
+        printf("-1\n");
  }
         else
         {
