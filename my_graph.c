@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "my_math.h" 
+#include "my_mat.h" 
 
 int main()
 {
@@ -11,12 +11,10 @@ int main()
         matrix[i][j]=0;
         }
     }
-    int i;
-    int j;
     char check_char;
     scanf ("%c",&check_char);
     // while (scanf("%c",&check_char)!='D')
-     while (check_char!='D'||check_char!=EOF)
+     while (check_char!='D')
     {
       if(check_char=='A')
       {
@@ -34,7 +32,7 @@ int main()
     //     {
     //         printf("%d\n",matrix[i][j]);
     //     }
-        
+
     // }
         // if(matrix[i][j]==infint||matrix[i][j]==0)
         // printf("False\n");
@@ -42,14 +40,13 @@ int main()
         // {
         //    printf("True\n");
         // }
-       
+
        }
         if(check_char=='C')
        {
         check(matrix,check_char);       
        }
-      
+
        scanf("%c",&check_char);
     }
 }
-

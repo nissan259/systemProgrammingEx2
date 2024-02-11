@@ -1,4 +1,4 @@
-#include "my_math.h"
+#include "my_mat.h"
 #include <stdio.h>
 void A(int matrix[Matrix_Size][Matrix_Size])
 //void A(int *matrix)
@@ -67,7 +67,7 @@ void check (int dist[Matrix_Size][Matrix_Size],char check_char) {
  }
         else
         {
-          printf("%d",work_matrix[i][j]);
+          printf("%d\n",work_matrix[i][j]);
         }
         }
     //         for(int i=0;i<Matrix_Size;i++)
@@ -78,4 +78,3 @@ void check (int dist[Matrix_Size][Matrix_Size],char check_char) {
     //     }  
     // }
 }
-
