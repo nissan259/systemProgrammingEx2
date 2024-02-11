@@ -52,12 +52,11 @@ int main() {
     int selected_bool[N] = {0};
     GetFromUser(items, values, weights);
     printf("Maximum profit: %d\n", knapSack(weights, values, selected_bool));
-    printf("Selected items: ");
+    printf("Selected items:");
     for (int i = 0; i < N; i++) {
         if (selected_bool[i]) {
-            printf("%c ", items[i]);
+            printf(" %c", items[i]);
         }
     }
-    printf("\n");
     return 0;
 }
